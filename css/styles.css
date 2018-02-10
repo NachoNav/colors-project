@@ -1,0 +1,194 @@
+body {
+	font-family: Abril Fatface, Arial, sans-serif;
+	background-color: #f4f7fc;
+	display: flex;
+	justify-content: center;
+}
+
+.main_column {
+	background-color: white;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dark_text {
+	color: #222326;
+}
+
+.color_container {
+	margin: 5px;
+	color: white;
+	font-size: 40px;
+	width: 45%;
+	border-radius: 4px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.7;
+}
+
+.color_container:hover {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#green {
+	background-color: green;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#tomato {
+	background-color: tomato;
+}
+
+#teal {
+	background-color: teal;
+}
+
+#plum {
+	background-color: plum;
+}
+
+#olive {
+	background-color: olive;
+}
+
+#navy {
+	background-color: navy;
+}
+
+#linen {
+	background-color: linen;
+}
+
+#khaki {
+	background-color: khaki;
+}
+
+#indigo {
+	background-color: indigo;
+}
+
+#gold {
+	background-color: gold;
+}
+
+#crimson {
+	background-color: crimson;
+}
+
+#cornsilk {
+	background-color: cornsilk;
+}
+
+#coral {
+	background-color: coral;
+}
+
+#azure {
+	background-color: azure;
+}
+
+#lime {
+	background-color: lime;
+}
+
+#magenta {
+	background-color: magenta;
+}
+
+#moccasin {
+	background-color: moccasin;
+}
+
+#peru {
+	background-color: peru;
+}
+
+#sienna {
+	background-color: sienna;
+}
+
+#silver {
+	background-color: silver;
+}
+
+#snow {
+	background-color: snow;
+}
+
+#tan {
+	background-color: tan;
+}
+
+#wheat {
+	background-color: wheat;
+}
+
+#thistle {
+	background-color: thistle;
+}
+
+#purple {
+	background-color: purple;
+}
+
+#orange {
+	background-color: orange;
+}
+
+#black {
+	background-color: black;
+}
+
+#lavender {
+	background-color: lavender;
+}
+
+#ivory {
+	background-color: ivory;
+}
+
+#pink {
+	background-color: pink;
+}
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 735px) { 
+
+	.color_container {
+		margin: 5px;
+		color: white;
+		font-size: 40px;
+		width: 80%;
+		border-radius: 4px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.7;
+	}
+
+	.color_container:active {
+		opacity: 1;
+		transition: opacity 0.3s;
+	}
+
+}
