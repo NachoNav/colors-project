@@ -41,15 +41,16 @@ body {
 	display: inline; 
 }
 
-.show-default:hover {
+.color_container:hover .show-default {
 	display: none; 
 }
 
 .show-alt { 
-	display: none; 
+	display: none;
+	font-family: monospace;
 }
 
-.show-alt:hover { 
+.color_container:hover .show-alt { 
 	display: inline; 
 }
 
@@ -195,9 +196,9 @@ body {
 	background-color: pink;
 }
 
-@media only screen 					// mobile
+@media only screen 
 and (min-device-width : 0px) 
-and (max-device-width : 735px) { 
+and (max-device-width : 800px) { 
 
 	.color_container {
 		margin: 5px;
@@ -216,5 +217,4 @@ and (max-device-width : 735px) {
 		opacity: 1;
 		transition: opacity 0.3s;
 	}
-
 }
