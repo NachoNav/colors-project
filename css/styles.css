@@ -37,6 +37,22 @@ body {
 	transition: opacity 0.3s;
 }
 
+.show-default { 
+	display: inline; 
+}
+
+.show-default:hover {
+	display: none; 
+}
+
+.show-alt { 
+	display: none; 
+}
+
+.show-alt:hover { 
+	display: inline; 
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -179,7 +195,7 @@ body {
 	background-color: pink;
 }
 
-@media only screen 
+@media only screen 					// mobile
 and (min-device-width : 0px) 
 and (max-device-width : 735px) { 
 
