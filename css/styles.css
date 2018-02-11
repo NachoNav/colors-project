@@ -1,9 +1,12 @@
+html {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
+}
+
 body {
 	font-family: Abril Fatface, Arial, sans-serif;
 	background-color: #f4f7fc;
 	display: flex;
 	justify-content: center;
-	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);  		/* Light white */
 }
 
 .main_column {
@@ -14,6 +17,7 @@ body {
 	justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 }
 
 .dark_text {
@@ -25,13 +29,13 @@ body {
 	color: white;
 	font-size: 40px;
 	width: 45%;
-	border-radius: 4px;
 	height: 100px;
+	border-radius: 4px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 0.7;
-	transition: opacity 0.3s;
+	opacity: 0.75;
+	transition: opacity 8s;
 }
 
 .color_container:hover {
@@ -219,13 +223,31 @@ and (max-device-width : 800px) {
 		opacity: 1;
 		transition: opacity 0.3s;
 	}
+
 }
 
 @media only screen 
 	and (min-width: 0px)
-        and (orientation: landscape)
+    and (orientation: landscape) {
+
+    	.color_container {
+			margin: 5px;
+			color: white;
+			font-size: 40px;
+			width: 45%;
+			height: 100px;
+			border-radius: 4px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			opacity: 0.75;
+			transition: opacity 8s;
+		}
+
+		.color_container:active {
+			opacity: 1;
+			transition: opacity 0.3s;
+		}
+
+    }
 {
-	
-	
-   
-}
